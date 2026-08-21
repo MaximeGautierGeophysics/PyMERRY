@@ -1,0 +1,45 @@
+cff-version: 1.2.0
+
+message: "If you use PyMERRY in your research, please cite the following publication."
+
+title: "PyMERRY: A Python solution for an improved interpretation of electrical resistivity tomography images"
+
+type: software
+
+authors:
+  - family-names: Gautier
+    given-names: Maxime
+  - family-names: Gautier
+    given-names: Stéphanie
+  - family-names: Cattin
+    given-names: Rodolphe
+
+repository-code: "https://github.com/MaximeGautierGeophysics/PyMERRY"
+
+url: "https://github.com/MaximeGautierGeophysics/PyMERRY"
+
+keywords:
+  - electrical resistivity tomography
+  - ERT
+  - error assessment
+  - geophysics
+  - resistivity
+  - PyMERRY
+
+references:
+  - type: article
+    authors:
+      - family-names: Gautier
+        given-names: Maxime
+      - family-names: Gautier
+        given-names: Stéphanie
+      - family-names: Cattin
+        given-names: Rodolphe
+    title: "PyMERRY: A Python solution for an improved interpretation of electrical resistivity tomography images"
+    journal: "Geophysics"
+    year: 2023
+    volume: 89
+    issue: 1
+    start: F23
+    end: F39
+    doi: "10.1190/geo2023-0105.1"
