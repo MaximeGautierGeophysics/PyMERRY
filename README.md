@@ -296,7 +296,7 @@ PyMERRY uses a parameter file to define the input files, output directory, and c
 
 A parameter file template is provided in the repository:
 ```text
-tools/parameter_file.txt
+parameter_file_template.txt
 ```
 The examples also contain their own parameter files:
 
