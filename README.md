@@ -87,6 +87,32 @@ PyMERRY/
             └── ...
 ```
 
+# Installation
+
+PyMERRY requires a Python environment with the packages necessary to run the code.
+
+Environment files (`.yml`) are provided in the `installation` directory for the supported operating systems:
+
+```text
+installation/
+├── pymerry_env_linux_fedora.yml
+├── pymerry_env_linux_ubunto.yml
+├── pymerry_env_linux_macos.yml
+└── pymerry_env_linux_windows.yml
+```
+
+These files can be used to create the required Python environment using Conda.
+
+The complete installation procedure, including the creation and activation of the Python environment and the installation of the required dependencies, is described in detail in:
+
+```text
+docs/user_manual.pdf
+```
+
+**Please refer to the user manual before running PyMERRY for the first time.**
+
+> **Note:** PyMERRY uses multiprocessing during the error assessment. For this reason, the code should not be run directly from a Jupyter Notebook. Spyder or execution from a terminal is recommended.
+
 # How PyMERRY works
 
 PyMERRY uses:
